@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\GameController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +20,5 @@ Route::get('/', function () {
 });
 
 Route::resource('games', GameController::class);
+Route::resource('cards', CardController::class);
+
