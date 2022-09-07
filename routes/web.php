@@ -18,7 +18,13 @@ use App\Http\Controllers\CardController;
 Route::get('/', function () {
     return view('welcome');
 });
+<<<<<<< HEAD
 
 Route::resource('games', GameController::class);
 Route::resource('cards', CardController::class);
 
+=======
+Route::get('/battle', function () {
+    return view('game');
+});
+>>>>>>> bfac61fbfbb71e830a35690986aa504b2bc35637
