@@ -3,10 +3,10 @@
 @section('title', 'Home')
 
 @section('content')
-    <div class="row">
-        {{-- <div class="container d-flex justify-content-center">
-            <img src= {{ asset('espadas.png') }} width="350" height="350" alt="">
-        </div> --}}
+<div id="app">
+    <game></game>
+</div>
+    {{-- <div class="row">
         <div class="alert alert-success" role="alert">
             <h4 class="text-center"><b>Bienvenido a Siigo Match Battle</b></h4>
         </div>
@@ -15,5 +15,5 @@
                 <a class="btn btn-warning" href="/games/create" role="button">Crear Partida</a>
             </div>
         </div>
-    </div>
+    </div> --}}
 @endsection

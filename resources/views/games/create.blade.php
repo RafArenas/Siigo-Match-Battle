@@ -14,7 +14,7 @@
             <div class="row">
                 <div class="input-group mb-1 mt-3">
                     <span class="form-control" id="aut_code"><b>Código partida:</b></span>
-                    <input type="text" class="form-control" id="aut_code" name="aut_code" value="<?php echo hexadecimalAzar(16); ?>" readonly>
+                    <input type="text" class="form-control" id="aut_code" name="aut_code" value="<?php echo hexadecimalAzar(6); ?>" readonly>
                     <p class="txt-center">*Copie este código y peguelo en el campo de abajo para poder crear una partida</p>
                 </div>
                 <div class="form">
